@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habit Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Habit Tracker</h1>
+  </header>
+
+  <main>
+    <!-- Form to Add a New Habit -->
+    <section id="add-habit">
+      <h2>Add a New Habit</h2>
+      <form id="habit-form">
+        <input type="text" id="habit-name" placeholder="Habit Name" required>
+        <input type="number" id="habit-goal" placeholder="Daily Goal (e.g., 2 liters)" required>
+        <button type="submit">Add Habit</button>
+      </form>
+    </section>
+
+    <!-- List of Habits -->
+    <section id="habit-list">
+      <h2>Your Habits</h2>
+      <ul id="habits"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Habit Tracker</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
